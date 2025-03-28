@@ -1,0 +1,9 @@
+A classe Aniversario em Java permite que o usuário informe um mês do ano (de 1 a 12) e exibe uma mensagem informando o nome do mês correspondente. Caso um número inválido seja inserido, a classe retorna uma mensagem de erro.
+
+Recebe um número inteiro correspondente ao mês do aniversário.
+
+Utiliza um switch para identificar e exibir o nome do mês correspondente.
+
+Informa ao usuário caso o número inserido não esteja entre 1 e 12.
+
+este codigo esta sobre a licença mit
