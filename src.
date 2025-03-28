@@ -1,0 +1,50 @@
+public class Aniversario
+{
+    int mes;
+    public void MesAniversario(int m)
+    {
+        mes = m;
+        switch(mes)
+        {
+            case 1:
+                System.out.println("voce faz aniversario no mes de janeiro");
+                break;
+            case 2:
+                System.out.println("voce faz aniversario no mes de fevereiro");
+                break;
+            case 3:
+                System.out.println("voce faz aniversario no mes de março");
+                break;
+            case 4:
+                System.out.println("voce faz aniversario no mes de abril");
+                break;
+            case 5:
+                System.out.println("voce faz aniversario no mes de maio");
+                break;
+            case 6:
+                System.out.println("voce faz aniversario no mes de junho");
+                break;
+            case 7:
+                System.out.println("voce faz aniversario no mes de julho");
+                break;
+            case 8:
+                System.out.println("voce faz aniversario no mes de agosto");
+                break;
+            case 9:
+                System.out.println("voce faz aniversario no mes de setembro");
+                break;
+            case 10:
+                System.out.println("voce faz aniversario no mes de outubro");
+                break;
+            case 11:
+                System.out.println("voce faz aniversario no mes de novembro");
+                break;
+            case 12:
+                System.out.println("voce faz aniversario no mes de dezembro");
+                break;
+            default:
+                System.out.println("digite SOMENTE numeros entre 1 e 12");
+                break;
+        }
+    }
+}
